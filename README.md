@@ -16,6 +16,6 @@ Your assignment is:
 
 <p align="center">
  <img src="stuffy_stuff/formel.png" width="150">
-<\p>
+
 
   * Write one function which calculates *m* and *v*. Your function should return both values to the main program at the same time. Use references for this. The resulting values should be printed in the main program.
