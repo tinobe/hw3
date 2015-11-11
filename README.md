@@ -18,5 +18,3 @@ Your assignment is:
 <\p>
 
   * Write one function which calculates *m* and *v*. Your function should return both values to the main program at the same time. Use references for this. The resulting values should be printed in the main program.
-
-  
