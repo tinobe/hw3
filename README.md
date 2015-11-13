@@ -22,4 +22,6 @@ are the same every time you execute your program. This is because the pseudo-ran
 a seed value. Think of the seed value as a kind of initial value. If you write no further commands for random
 numbers in your code, the seed value will be the same every time. Insert the comand `srand(time(NULL))` at the
 start of your `main` function in order to use the current time as a seed value. In this way you will always get
-different random numbers.
+different random numbers. 
+
+Depending on your combination of operating system and compiler, you might have to add `#include <ctime>`.
