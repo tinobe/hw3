@@ -9,10 +9,10 @@ for(int i=0;i<N;i++) p[i]=rand()/double(RAND_MAX);
 }
 
 void calc(double* p, const int N, double& mean, double& var){
-   for(int i=0; i<N; i++) mean=mean+p[i]; // sum
-   mean=mean/N; var=pow((p[0]-mean),2);  // divide by N
-   for(int i=1; i<N; i++) var= var+ pow((p[i]-mean),2);  // sum
-   var=var/N;   // divide by N
+   for(int i=0; i<N; i++) mean+=p[i]; // sum
+   mean/=N;  // divide by N
+   for(int i=0; i<N; i++) var+= pow((p[i]-mean),2);  // sum
+   var/=N;   // divide by N
 }
 
 void print(double* p, const int N){
